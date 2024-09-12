@@ -357,7 +357,7 @@ GameObject:
   - component: {fileID: 654383058}
   - component: {fileID: 654383057}
   - component: {fileID: 654383056}
-  - component: {fileID: 654383055}
+  - component: {fileID: 654383060}
   m_Layer: 0
   m_Name: Player3
   m_TagString: Untagged
@@ -365,19 +365,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &654383055
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 654383054}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b45b6a96ff90f2b48b50e88971c4e107, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  forceamt: 5
 --- !u!61 &654383056
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -517,6 +504,19 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &654383060
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 654383054}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 619b44557ccf00246be2261a7abc06f8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  movespeed: 5
 --- !u!1 &697020361
 GameObject:
   m_ObjectHideFlags: 0
